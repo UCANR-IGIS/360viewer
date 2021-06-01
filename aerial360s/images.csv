@@ -1,0 +1,5 @@
+title_short,fn,title_long,author,notes
+Hastings Reserve (jpg),hastings-pano_10x5k.jpg,"Hastings Natural History Reserve. Carmel Valley, CA",Andy Lyons,"This is a standard 360 jpg file. The file, title and author are being passed to Panellum as parameters in the iframe source URL."
+Hopland REC (jpg),hrec-pano_10x5k.jpg,"Hopland Research and Extension Center. Hopland, CA",Shane Feirer,"This is a standard 360 jpg file. The file, title and author are being passed to Panellum as parameters in the iframe source URL."
+Kearney REC (json),krec.json,,,"This is a json file which loads a standard 360 jpg file. All of the display parameters (e.g., jpg, title, author, rotation speed), are encoded in the json file."
+Elkus Ranch (json),elkus/elkus.json,,,This is a json file which loads 360 multi-resolution tiles. Notice how quickly it loads? All of the display parameters are encoded in the json file.

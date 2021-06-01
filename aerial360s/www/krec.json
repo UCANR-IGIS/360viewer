@@ -1,0 +1,15 @@
+{
+    "title": "Kearney Research and Extension Center, Parlier, CA",
+    "author": "Robert Johnson, IGIS",
+    "hfov": 60.0,
+    "autoLoad": true,
+    "autoRotate": -2,
+    "autoRotateInactivityDelay": 30000,
+    "pitch": -25,
+    "compass": true,
+    "type": "equirectangular",
+    "panorama": "krec-pano_10x5k.jpg"
+}
+
+
+

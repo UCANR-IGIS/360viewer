@@ -1,0 +1,18 @@
+{
+    "title": "Elkus Ranch. Half Moon Bay, CA",
+    "author": "Andy Lyons, IGIS",
+    "hfov": 100.0,
+    "autoLoad": true,
+    "autoRotate": -2,
+    "autoRotateInactivityDelay": 30000,
+    "pitch": -15,
+    "type": "multires",
+    "multiRes": {
+        "path": "/%l/%s%y_%x",
+        "fallbackPath": "/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 5,
+        "cubeResolution": 7768
+    }
+}

@@ -9,9 +9,10 @@ imgs_fn <- list.files("www", pattern = "JPG$|JPEG$", ignore.case = TRUE)
 ## Define the UI
 ui <- fluidPage(
   titlePanel("Simple 360 Photo Viewer: UC Berkeley Botanical Garden"),
-  
-  p("This app demonstrates how to view 360 photos using Shiny. For details, see this blog post and the source code."),
-  
+  tags$p("This app demonstrates how to view drone 360 photos using Shiny. For details, see this ", 
+         tags$a(href="http://igis.ucanr.edu/Tech_Notes/360-shiny-viewer/", target="_blank", rel="noopener", "Tech Note"), 
+         " or the ", 
+         tags$a(href="https://github.com/ucanr-igis/360viewer", target="_blank", rel="noopener", "source code"), "."),
   sidebarLayout(
     sidebarPanel(
       selectInput("img_fn", "Image", choices = imgs_fn, selected = NULL),

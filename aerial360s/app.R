@@ -16,7 +16,10 @@ if (FALSE %in% file.exists(file.path("www", imgs_df$fn))) {
 ui <- fluidPage(
   tags$style("h2 {font-size:20px; font-weight:bold; color:#444;}"),
   titlePanel("Intermediate 360 Photo Viewer: UC Field Station from the Air"),
-  p("This app demonstrates how to view drone 360 photos using Shiny. For details, see this blog post and the source code."),
+  tags$p("This app demonstrates how to view drone 360 photos using Shiny. For details, see this ", 
+    tags$a(href="http://igis.ucanr.edu/Tech_Notes/360-shiny-viewer/", target="_blank", rel="noopener", "Tech Note"), 
+    " or the ", 
+    tags$a(href="https://github.com/ucanr-igis/360viewer", target="_blank", rel="noopener", "source code"), "."),
   
   sidebarLayout(
     sidebarPanel(
